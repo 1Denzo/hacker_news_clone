@@ -9,3 +9,4 @@ tera = "1.2.0"
 serde = { version = "1.0.216", features = ["derive"] } 
 dotenv = "0.15.0"
 diesel = { version = "2.2.6", features = ["postgres"] }
+actix-identity = "0.4"

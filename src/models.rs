@@ -2,6 +2,12 @@ use super::schema::users;
 use diesel::{Queryable, Insertable};
 use serde::{Deserialize};
 
+#[derive(Debug, Deserialize)]
+pub struct LoginUser {
+    pub username: String,
+    pub password: String,
+}
+
 #[derive(Queryable)]
 pub struct User {
     pub id: i32,

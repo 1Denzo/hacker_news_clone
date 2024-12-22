@@ -1,0 +1,11 @@
+[package]
+name = "hacker_news_clone"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+actix-web = "4.8"
+tera = "1.2.0"
+serde = { version = "1.0.216", features = ["derive"] } 
+dotenv = "0.15.0"
+diesel = { version = "2.2.6", features = ["postgres"] }
